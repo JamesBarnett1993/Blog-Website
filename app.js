@@ -1,8 +1,7 @@
-var main = function() {
-	$(".nav a").on('click', function() {
-		$(this).toggleClass("nav_click");
-	});
-}
+$(function() {
+	$("#HeadbarNav li").on('click', function() {
+		$("#HeadbarNav li.active").removeClass("active");	
+		    $(this).toggleClass('active');
+		   });
+		});
 
-
-$(document).ready(main);

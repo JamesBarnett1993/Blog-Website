@@ -1,6 +1,5 @@
 .nav {
-
-
+ margin-bottom: 0px;
 }
 .nav a {
   color: gray;
@@ -10,7 +9,7 @@
   padding: 14px 10px;
 }
 
-.nav li {
+.nav l {
   display: inline; 
 }
 
@@ -24,6 +23,7 @@
   background-size: cover;
   height: 500px; 
   margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .jumbotron .container {
