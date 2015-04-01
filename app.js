@@ -1,7 +1,15 @@
 $(function() {
-	$("#HeadbarNav li").on('click', function() {
-		$("#HeadbarNav li.active").removeClass("active");	
-		    $(this).toggleClass('active');
-		   });
-		});
 
+		var $Navbar_li = $("#HeadbarNav li");
+
+		$Navbar_li.on('click', function() {
+
+		// remove active class 
+		$Navbar_li.removeClass("active");	
+
+		//add active class
+		$(this).toggleClass('active'); 
+		
+		});
+		
+	});
