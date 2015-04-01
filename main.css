@@ -1,14 +1,20 @@
-#HeadbarNav {
- margin-bottom: 0px;
-}
-.#HeadbarNav a {
-  color: gray;
-  text-transform: uppercase;
+.navbar {
+  margin-bottom: 0px;
 }
 
-#HeadbarNav li {
-  display: inline; 
+#HeadbarNav {
+ margin: 0px;
 }
+#HeadbarNav a {
+  color: gray;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+#HeadbarNav li {    
+    margin-bottom: 0px;
+}
+
+
 
 .jumbotron {
   background: url("http://37.media.tumblr.com/42913932864901353fcd6775b29a1cbf/tumblr_n9xaksnNOz1s2rrw7o3_1280.jpg"); 
@@ -23,6 +29,7 @@
   position: relative;
   top: 10px;
   left: 50px;
+  margin-top: 0px;
  
 }
 
@@ -43,19 +50,48 @@
     background-color: #efefef;
     border-bottom: 1px solid #dbdbdb;
     border-top: 1px solid #dbdbdb;
+    margin-bottom: 0px;
 }
 
-.Topics h2 {
-    color: #393c3d;
-    font-size: 24px;
-    text-align: center;
+.Topics h1 {
+  text-align: center;
 }
 
-.Topics p {
-    font-size: 30px;
-    margin-bottom: 13px;
+#slider {
+    width: 720px;
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
    
 }
+
+#slider .slides {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+
+   
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+    
+}
+
+/* helper css, since we don't have images */
+.slide1 {background: red;}
+.slide2 {background: blue;}
+.slide3 {background: green;}
+.slide4 {background: purple;}
+.slide5 {background: pink;}
+
     
 .learn-more {
   background-color: #efefef;
